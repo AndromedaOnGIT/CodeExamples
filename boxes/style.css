@@ -1,0 +1,91 @@
+@charset "utf-8";
+body {
+	background-color: black;
+}
+.bigbox {
+	margin: auto;
+	background-color: white;
+	width: 450px;
+	height: 450px;
+	border-radius: 30px;
+}
+.rectangle {
+	float: left;
+	margin: 5px;
+	background-color: limegreen;
+	width: 290px;
+	height: 140px;
+	border-radius: 30px;
+}
+.bigsquare {
+	float: left;
+	margin: 5px;
+	width: 140px;
+	height: 140px;
+	border-radius: 30px;
+	text-align: center;
+	line-height: 140px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-weight: 100;
+	font-size: 40px
+}
+#b1 {
+	background-color: deepskyblue;
+	color: deepskyblue;
+}
+#b1:hover {
+	background-color: black;
+}
+#b2 {
+	background-color: orangered;
+	color: orangered;
+}
+#b2:hover {
+	background-color: black;
+}
+#b3 {
+	background-color: limegreen;
+	color: white;
+}
+#b4 {
+	background-color: limegreen;
+}
+#b5 {
+	background-color: white;
+	color: white;
+	font-size: 30px
+}
+#b5:hover {
+	background-color: limegreen;
+}
+#b6 {
+	background-color: limegreen;
+}
+.littlesquare {
+	float: left;
+	margin: 5px;
+	width: 65px;
+	height: 65px;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 65px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-weight: bold;
+	font-size: 20px
+}
+#l1 {
+	background-color: limegreen;
+}
+#l2 {
+	background-color: limegreen;
+}
+#l3 {
+	background-color: yellow;
+	color: yellow;
+}
+#l3:hover {
+	background-color: #000000;
+}
+#l4 {
+	background-color: limegreen;
+}
