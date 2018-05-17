@@ -1,0 +1,51 @@
+@charset "utf-8";
+body {
+	background-color: #314860;
+}
+img {
+	float: right;
+	width: 450px;
+	height: 500px;
+}
+.container {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #B6BCD5;
+	border-radius: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.heading {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	border-bottom: solid thin black;
+	height: 40px;
+	text-shadow: 2px 2px lightgrey;
+}
+a {
+	color: #312B23;
+}
+.lcolumn {
+	float: left;
+	width: 445px;
+}
+h1 {
+}
+p {
+}
+h2 {
+	line-height: 1px;
+	padding-top: 20px;
+}
+.rcolumn img {
+}
+.caption {
+	font-size: 8px;
+}
+a:hover {
+}
+.rcolumn {
+	float: right;
+	
+	width: 445px;
+}

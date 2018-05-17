@@ -28,6 +28,9 @@ a:active {
 	background-color: grey;
 	box-shadow: 0px 10px 40px grey;
 	margin-bottom: 20px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
 }
 .bannercont {
 	width: 900px;
@@ -50,7 +53,7 @@ a:active {
 	margin-left: auto;
 	width: 900px;
 	height: 400px;
-	margin-top: 40px;
+	margin-top: 80px;
 	border-radius: 10px;
 	background-color: grey;
 }
@@ -58,12 +61,13 @@ a:active {
 	height: 400px;
 	width: 595px;
 	padding: 2px;
+	float: left;
 	border-right: solid 1px black;
 }
 .leftcontent {
 	float: left;
 	width: 200px;
-	margin-top: 20px;
+	position: fixed;
 	margin-left: 10px;
 }
 .menuitem {
@@ -76,6 +80,7 @@ a:active {
 	background-color: lightgrey;
 	color: black;
 }
+
 #topitem {
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
@@ -86,6 +91,19 @@ a:active {
 }
 .rightbanner {
 	float: right;
-	width: 200px;
-	background-color: black
+	width: 295px;
+	padding-left: 5px;
+	height: 1000px; 
+}
+
+#topitem:hover #sub1{
+	visibility: visible;
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	top: 10px;
+}
+
+#sub1 {
+	visibility: hidden;
 }
